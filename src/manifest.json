@@ -1,0 +1,29 @@
+{
+  "name": "P2R Avengers",
+  "description": "Pleaseeee review Pullllllll",
+  "manifest_version": 2,
+  "icons": {
+    "128": "assets/icon.png"
+  },
+  "browser_action": {
+    "default_popup": "assets/index.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [ 
+    { 
+        "js": ["popup.js" ],
+        "matches": [ "http://*/*", "https://*/*"]
+     }
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "options_page": "assets/options.html",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "https://api.chatwork.com/"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
