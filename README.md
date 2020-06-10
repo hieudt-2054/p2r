@@ -1,3 +1,6 @@
+# Plzzzz Review My Pulll - Quick
+![image](https://i.ibb.co/r257NBS/new.png)
+
 # V 1.0.0 Tính năng
 - Quản lý BOT
 - Quản lý Message
