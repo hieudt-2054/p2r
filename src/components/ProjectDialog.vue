@@ -120,12 +120,6 @@ export default {
       }
       this.$emit('input', value)
     },
-    'form.rooms' (newVal) {
-      // console.log(this.form.rooms)
-      Service.getRoomsMessage(this.form.rooms[0], this.form.api).then((response) => {
-        console.log(response)
-      })
-    },
     async 'form.api'(newVal) {
       if (newVal !== '') {
         this.roomShow = true
