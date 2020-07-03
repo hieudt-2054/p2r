@@ -3,10 +3,19 @@
   "description": "Pleaseeee review Pullllllll",
   "manifest_version": 2,
   "icons": {
+    "16": "assets/icon.png",
+    "32": "assets/icon.png",
+    "48": "assets/icon.png",
     "128": "assets/icon.png"
   },
   "browser_action": {
-    "default_popup": "assets/index.html"
+    "default_popup": "assets/index.html",
+    "default_icon": {
+      "16": "assets/icon.png",
+      "32": "assets/icon.png",
+      "48": "assets/icon.png",
+      "128": "assets/icon.png"
+    }
   },
   "background": {
     "scripts": ["background.js"]

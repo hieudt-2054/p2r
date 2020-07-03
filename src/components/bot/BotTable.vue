@@ -26,7 +26,8 @@ export default {
     return {
       headers: [
         { text: 'Tên BOT', value: 'name' },
-        { text: 'Avatar', value: 'avatar' }
+        { text: 'Avatar', value: 'avatar' },
+        { text: 'Actions', sortable: false }
       ]
     }
   },

@@ -35,7 +35,7 @@ export default {
         use: ['vue-style-loader', 'css-loader']
       },
       {
-        test: /\.(jpg|gif|png|woff|woff2|eot|ttf)$/,
+        test: /\.(jpg|gif|png|ico|woff|woff2|eot|ttf)$/,
         loader: 'file-loader',
         options: {
           name: 'assets/[name].[ext]'
