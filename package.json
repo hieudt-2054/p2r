@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "avengers-chatwork": "^1.0.4",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "jquery": "^3.5.1",
     "vue": "^2.5.16",
     "vue-router": "^3.3.2",
